@@ -15,4 +15,9 @@ public class UtilitatsGenerals {
         return min + (int) (Math.random() * ((max - min) + 1));
 
     }
+    
+    public static void mostrar(String cadena){
+        System.out.println(cadena);
+    }
+    
 }
